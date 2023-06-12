@@ -5,6 +5,7 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
@@ -16,7 +17,8 @@
         
         h1 {
             color: #fff;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-shadow: 2px 2px
+             4px rgba(0, 0, 0, 0.5);
             font-size: 44px;
             margin-left: 20px;
         }
@@ -32,21 +34,32 @@
             border-radius: 50%;
         }
 
-        @media (width < 750px) {
-            .container{
-                display: flex;
-                flex-direction: column;
-            }
+        #frase{
+            color: #f5f5f5;
+            font-size: 30px;
         }
+
+        .frase{
+            background-color: #849af4;
+            border-radius: 10px;
+            margin-bottom: 10em;
+            padding: 10px;
+        }
+
 
     </style>
 </head>
-<body class="container">
+<body>
     <div class="photo-frame">
         <img src="./img.jpg" alt="Nossa Foto" width="550px" height="500px" >
     </div>
     <div>
         <h1>Feliz Dia dos Namorados meu Amooooooooooor</h1>
+    </div>
+    <div class="frase">
+        <p id="frase">
+            Eu lhe amo muito vida, obrigado por sempre está comigo Amooooooooooor
+        </p>
     </div>
 </body>
 </html>
