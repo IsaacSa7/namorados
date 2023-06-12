@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feliz Dia dos Namorados!</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            background-image: url('./fundo.jpeg');
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 44px;
+            margin-left: 20px;
+        }
+
+        .photo-frame {
+            border-radius: 50%;
+            border: 5px solid #ff4c4c;
+            padding: 10px;
+            display: inline-block;
+        }
+        
+        .photo-frame img {
+            border-radius: 50%;
+        }
+
+        @media (width < 750px) {
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body class="container">
+    <div class="photo-frame">
+        <img src="./img.jpg" alt="Nossa Foto" width="550px" height="500px" >
+    </div>
+    <div>
+        <h1>Feliz Dia dos Namorados meu Amooooooooooor</h1>
+    </div>
+</body>
+</html>
